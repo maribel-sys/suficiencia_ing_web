@@ -1,0 +1,34 @@
+h1 {
+    color: gray;
+} 
+
+h2 {
+    font-weight: bold;
+    font-size:  14px;
+}
+
+
+p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+button {
+    /*@apply px-4 py-1 rounded-lg bg-cyan-400 text-white transition-all*/
+    background-color: #cf2638;
+    border-radius: 10px;
+    color: white;
+    padding: 4px 16px 4px 16px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.login{
+  background-color: #cf2638;  
+  color: #cf2638;
+}
+/*
+    py : Padding
+    sm: font-size:  14px
+*/
